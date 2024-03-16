@@ -1,22 +1,4 @@
-class Stack {
-  constructor() {
-    this.items = [];
-  }
-
-  addElement(value) {
-    this.items.push(value);
-  }
-  removeElement() {
-    this.items.pop();
-  }
-
-  getItems() {
-    console.log(this.items);
-  }
-  getPeek() {
-    console.log(this.items[this.items.length - 1]);
-  }
-}
+const Stack = require("./Implementations/stack-array.js");
 const stack = new Stack();
 stack.addElement(2);
 stack.addElement(3);

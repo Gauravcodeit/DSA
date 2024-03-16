@@ -1,4 +1,4 @@
-export default class Stack {
+ class Stack {
   constructor() {
     this.items = [];
   }
@@ -17,14 +17,16 @@ export default class Stack {
     console.log(this.items[this.items.length - 1]);
   }
 }
-const stack = new Stack();
-stack.addElement(2);
-stack.addElement(3);
-stack.addElement(4);
-stack.addElement(5);
-stack.getItems();
-stack.removeElement();
-stack.getItems();
-stack.addElement(6);
-stack.getPeek();
-stack.getItems();
+module.exports = Stack
+
+// const stack = new Stack();
+// stack.addElement(2);
+// stack.addElement(3);
+// stack.addElement(4);
+// stack.addElement(5);
+// stack.getItems();
+// stack.removeElement();
+// stack.getItems();
+// stack.addElement(6);
+// stack.getPeek();
+// stack.getItems();

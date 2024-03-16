@@ -1,12 +1,7 @@
 const Stack = require("./Implementations/stack-array.js");
 const stack = new Stack();
 stack.addElement(2);
-stack.addElement(3);
-stack.addElement(4);
-stack.addElement(5);
 stack.getItems();
 stack.removeElement();
 stack.getItems();
 stack.addElement(6);
-stack.getPeek();
-stack.getItems();
